@@ -557,7 +557,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('dohUpstream').textContent = DOH_CONFIG.upstream;
 
   const currentDohOption = document.getElementById('currentDohOption');
-  if (currentDohOption) currentDohOption.textContent = currentDohUrl + ' (当前站点)';
+  if (currentDohOption) currentDohOption.textContent = currentDohUrl + '';  // 当前站点
 
   const dohUrlDisplay = document.getElementById('dohUrlDisplay');
   if (dohUrlDisplay) {
