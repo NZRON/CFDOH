@@ -15,7 +15,7 @@
   
   --input-bg: rgba(255, 255, 255, 0.4);
   --blur-amount: 24px;
-  
+
   --color-a: rgba(0, 122, 255, 0.15);
   --color-aaaa: rgba(52, 199, 89, 0.15);
   --color-cname: rgba(175, 82, 222, 0.15);
@@ -35,7 +35,7 @@
   --bg-color: #000000;
   --text-color: #ffffff;
   --text-secondary: #98989d;
-  
+
   --glass-bg: rgba(30, 30, 32, 0.65);
   --glass-bg-hover: rgba(50, 50, 52, 0.85);
   --glass-border: rgba(255, 255, 255, 0.15);
@@ -361,13 +361,6 @@ h1 {
 .ip-record-cell:last-child { width: 70%; }
 
 .ip-record-row:last-child .ip-record-cell { border-bottom: none; }
-
-.record-a { border-left: 4px solid var(--type-a); }
-.record-aaaa { border-left: 4px solid var(--type-aaaa); }
-.record-cname { border-left: 4px solid var(--type-cname); }
-.record-ns { border-left: 4px solid var(--type-ns); }
-.record-soa { border-left: 4px solid var(--type-soa); }
-.record-other { border-left: 4px solid var(--type-other); }
 
 .ip-address {
   font-family: "SF Mono", ui-monospace, Menlo, Monaco, Consolas, monospace;
