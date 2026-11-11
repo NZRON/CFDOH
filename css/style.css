@@ -41,8 +41,8 @@
 }
 
 .dark-mode {
-  --bg-color: #0b1020;
-  --bg-image: linear-gradient(135deg, rgba(59, 130, 246, 0.10) 0, rgba(139, 92, 246, 0.10) 100%);
+  --bg-color: #121212;
+  --bg-image: linear-gradient(135deg, rgba(255, 255, 255, 0.04) 0, rgba(255, 255, 255, 0.02) 100%);
   --text-color: #f1f5f9;
   --text-secondary: #94a3b8;
 
