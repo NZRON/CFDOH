@@ -17,6 +17,21 @@ export default {
       return new Response(null, { headers: CORS_HEADERS });
     }
 
+    if (url.pathname === "/js/config.js") {
+      return new Response(
+        `window.DOH_CONFIG = {
+          path: "${config.DoHPath}",
+          upstream: "${config.DoH}"
+        };`,
+        {
+          headers: {
+            "Content-Type": "application/javascript; charset=UTF-8",
+            "Cache-Control": "no-cache",
+          },
+        }
+      );
+    }
+
     if (url.pathname === `/${config.DoHPath}`) {
       return await DOHRequest(request, config);
     }
